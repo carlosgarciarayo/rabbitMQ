@@ -11,6 +11,7 @@ public class TutorialRabbitmqSpringApplication implements CommandLineRunner {
 
     private static final String MESSAGE = "Hello world!";
 
+    //prueba mege
     @Autowired
     RabbitTemplate rabbitTemplate;
 
