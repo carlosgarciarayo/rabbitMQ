@@ -41,7 +41,7 @@ public class RabbitMqConfig {
         return BindingBuilder.bind(queue).to(exchange).with(ROUTING_KEY);
     }
     
-    
+    //00
     //Contenedor en el que se indican quiénes son los consumidores de las colas.
     @Bean
     SimpleMessageListenerContainer container(ConnectionFactory connectionFactory, MessageListenerAdapter listenerAdapter) {
